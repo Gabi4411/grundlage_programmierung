@@ -7,8 +7,8 @@ def main():
     pc_cnt = 0
 
     while (user_cnt != 3) and (pc_cnt != 3):
-        user = utilizatorul()
         pc = computer()
+        user = utilizatorul()
         rezultat = match(user, pc)
 
         if rezultat == 'egal':
