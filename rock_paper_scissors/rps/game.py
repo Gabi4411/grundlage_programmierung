@@ -7,7 +7,7 @@ def match(user, pc):
     '''
     if user == pc:
         return 'egal'
-    elif (user == 'foarfeca' and pc == 'foaie') or (user == 'foaie' and pc == 'piatra') or (user == 'piatra' and pc == 'foarfeca'):
+    elif (user == 'foarfeca' and pc == 'hartie') or (user == 'hartie' and pc == 'piatra') or (user == 'piatra' and pc == 'foarfeca'):
         return 'user won'
     else:
         return 'pc won'
